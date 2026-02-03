@@ -1,0 +1,17 @@
+# Binarios
+main
+/cmd/server/main
+
+# Dependencias
+/vendor/
+
+# Entorno y Logs
+.env
+*.log
+
+# Docker data (para no subir tu base de datos local)
+postgres_data/
+
+# OS específicos
+.DS_Store
+Thumbs.db
